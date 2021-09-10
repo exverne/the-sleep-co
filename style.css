@@ -1,9 +1,39 @@
 * {
-    padding: 0;
+    padding: 0.5rem;
     margin: 0;
     box-sizing: border-box;
+    border: 2px solid rgb(220, 220, 220)
 }
 
-h1 {
-    color:red;
+/*----Temporary styles to remove later----*/
+* {
+    padding: 0;
+    border: 2px solid rgb(220, 220, 220)  
+}
+
+body {
+    border: none;
+}
+
+html {
+    border: none;
+}
+
+
+/*-----image styles-----*/
+
+.bg-image {
+    background-image: url('/images/the-sleep-co-lamp-bed\ \(4\).jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+/*-----universal styles and utility classes -----*/
+
+.padded         { padding: 5%;}
+.padded-sm      { padding: 1rem;}
+
+.bg-dark {
+    background-color: #192B37;
+    color: white;
 }
