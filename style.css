@@ -59,6 +59,9 @@ body {
     color: white;
 }
 
+.tall-5         { min-height: 5vh;}
+.tall-20        { min-height: 20vh;}
+.tall-40        { min-height: 40vh;}
 .tall-50        { min-height: 50vh;}
 .tall-60        { min-height: 60vh;}
 .tall-70        { min-height: 70vh;}
@@ -98,6 +101,10 @@ a:hover {
     color: #FFBE00;
 }
 
+.home:hover {
+    color: white;
+}
+
 .quote-icon { 
     font-size: 6rem;
     color: rgb(120, 120, 125);
@@ -108,9 +115,11 @@ a:hover {
 .white-text             { color: white;}
 .featured-text          { color: #FFBE00;}
 
+.a-text                 { font-size: 1.2rem;}
 .small-text             { font-size: 1.5rem;}
-.medium-text  { font-size: 2rem;
-                line-height: 1.1;
+.medium-text  { 
+    font-size: 2rem;
+    line-height: 1.1;
 }
 .big-text               { font-size: 4.5rem;}
 
@@ -129,22 +138,32 @@ a:hover {
 .text-center            { text-align: center;}
 .text-right             { text-align: right;}
 
-
-
-/*-------- Header Styles --------*/
+/*----Header Styles----*/
 
 header {
-    background-image: url('/images/the-sleep-co-white-bed\ \(1\).jpg');
-    background-size: cover;
-    background-position: 50% 50%;
+    display: inline-block;
+    padding: 2%;
 }
 
-header h3 {
+.header-a {
+    padding: 1rem 2rem;
+}
+
+
+/*-------- Banner Styles --------*/
+
+.banner {
+    background-image: url('/images/the-sleep-co-jumping-feet.jpg');
+    background-size: cover;
+    background-position: 0 30%;
+}
+
+.banner h3 {
     font-size: 6rem;
     line-height: 1;
 }
 
-header h1 {
+.banner h1 {
     font-size: 2.8rem;
 }
 
