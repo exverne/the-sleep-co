@@ -54,6 +54,8 @@ body {
 .padded-sm      { padding: 1rem;}
 .padded-lg      { padding: 10%;}
 
+.margin-bottom  { margin-bottom: 0.5rem;}
+
 .bg-dark {
     background-color: #192B37;
     color: white;
@@ -174,4 +176,19 @@ header {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 3rem;
+}
+
+/*------ footer styles------- */
+.inline {
+    display:inline-block;
+}
+.block {
+    display: block;
+}
+.inline a {
+    display: inline-block;
+    padding: 0.5rem;
+}
+.footer p {
+    line-height: 1rem;
 }
